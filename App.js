@@ -12,6 +12,7 @@ export default function App(){
     {id:3, name:"Bolesław śmiały", reignDate:"1058-1079"},
     {id:4, name:"Przemysław II", reignDate:"1295-1296"},
   ]
+  
 const[childData,setChildData] =useState(null)
 
 function ChildDataHandler(dataFromChild){
